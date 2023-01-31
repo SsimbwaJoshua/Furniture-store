@@ -173,6 +173,7 @@ html {
   font-size: 1.8rem;
 }
 .link--btn {
+  max-width: 9.6rem;
   background-color: var(--primary-color);
   color: #f7f7f7;
   padding: 1.2rem 1.8rem;
@@ -219,4 +220,146 @@ html {
 }
 .smaller-img-texts-2 {
   text-align: center;
+}
+
+/* ////////////////////////section 3//////////////////////////////*/
+.section-3 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.services {
+  padding: 1rem;
+  display: flex;
+  gap: 1.8rem;
+}
+.service-text {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-around; */
+  gap: 1rem;
+}
+.service-text-1 {
+  white-space: nowrap;
+  font-size: 1.6rem;
+  font-weight: 600;
+  line-height: 1.6;
+}
+.service-text-2 {
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+/* ////////////////////////section 4//////////////////////////////*/
+.section-4 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2.4rem;
+}
+.modern-collection {
+  padding: 3.6rem 2.4rem;
+}
+.modern-text-1 {
+  font-size: 1.8rem;
+  font-weight: 500;
+  line-height: 1.6;
+  margin-bottom: 1.8rem;
+}
+.modern-text-2 {
+  font-size: 1.6rem;
+  font-weight: 500;
+  color: var(--primary-color);
+  margin-bottom: 1.8rem;
+}
+.modern-sec-links {
+  text-decoration: none;
+  font-size: 1.4rem;
+}
+
+.modern--1 {
+  height: 50rem;
+  /* background-color: aquamarine; */
+  grid-row: 1/3;
+
+  background-image: url("landing img & icon/Mask Group.png");
+  background-size: cover;
+}
+.modern--2 {
+  /* background-color: blue; */
+  background-image: url("landing img & icon/Rectangle 34.png");
+  /* background-size: cover; */
+}
+.modern--3 {
+  /* background-color: yellowgreen; */
+  background-image: url("landing img & icon/Rectangle\ 33.png");
+  background-size: cover;
+}
+
+/* ////////////////////////section 5//////////////////////////////*/
+.trending {
+  font-size: 3.2rem;
+  text-align: center;
+}
+.trending-text {
+  margin-top: 4.4rem;
+  display: flex;
+  justify-content: center;
+  gap: 4.4rem;
+}
+.trendwords {
+  white-space: nowrap;
+  font-size: 2.4rem;
+  color: var(--faded-text);
+}
+.trending-text-1 {
+  color: var(--primary-color);
+}
+
+/* ////////////////////////section 5- grid layout//////////////////////////////*/
+.chair-cart {
+  position: relative;
+}
+.chair-cart::before {
+  content: "New";
+  background-color: #00b7f1;
+  font-size: 1.2rem;
+  padding: 0.5rem 1rem;
+  border-bottom-right-radius: 7px;
+  color: white;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.img-grid-1-text-1 {
+  margin-top: 2rem;
+  font-size: 1.2rem;
+  color: var(--faded-text);
+}
+.img-grid-1-text-2 {
+  margin-top: 1.8rem;
+  font-size: 1.6rem;
+}
+.img-grid-1-text-3 {
+  margin-top: 2.4rem;
+  font-size: 1.6rem;
+  display: flex;
+  justify-content: space-between;
+}
+.inner-box {
+  display: flex;
+  gap: 2rem;
+}
+.inner-text-1 {
+  color: var(--primary-color);
+}
+.inner-text-2 {
+  color: var(--faded-text);
+  text-decoration: line-through;
+}
+.star-icon-box {
+  display: flex;
+}
+.stars-icons {
+  color: var(--primary-color);
+  height: 1rem;
 }
