@@ -38,9 +38,14 @@ html {
 .section {
   margin-top: 2rem;
 }
+.section-heading {
+  font-size: 3.2rem;
+  text-align: center;
+}
 .light-text {
   color: var(--faded-text);
 }
+
 /* header and landing page */
 /* header and landing page */
 /* header and landing page */
@@ -296,10 +301,7 @@ html {
 }
 
 /* ////////////////////////section 5//////////////////////////////*/
-.trending {
-  font-size: 3.2rem;
-  text-align: center;
-}
+
 .trending-text {
   margin-top: 4.4rem;
   display: flex;
@@ -316,10 +318,18 @@ html {
 }
 
 /* ////////////////////////section 5- grid layout//////////////////////////////*/
-.chair-cart {
-  position: relative;
+.img-grid-1 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2.4rem;
+  margin: 4.4rem 0;
 }
-.chair-cart::before {
+.chair-cart {
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.1);
+  position: relative;
+  justify-self: center;
+}
+.default::before {
   content: "New";
   background-color: #00b7f1;
   font-size: 1.2rem;
@@ -330,6 +340,20 @@ html {
   top: 0;
   left: 0;
 }
+.green-sale::before {
+  content: "Sale";
+  background-color: var(--primary-color);
+  font-size: 1.2rem;
+  padding: 0.5rem 1rem;
+  border-bottom-right-radius: 7px;
+  color: white;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.img-grid-pics {
+  width: 30rem;
+}
 .img-grid-1-text-1 {
   margin-top: 2rem;
   font-size: 1.2rem;
@@ -339,7 +363,8 @@ html {
   margin-top: 1.8rem;
   font-size: 1.6rem;
 }
-.img-grid-1-text-3 {
+.img-grid-1-text-3,
+.inner-text-boxing {
   margin-top: 2.4rem;
   font-size: 1.6rem;
   display: flex;
@@ -362,4 +387,101 @@ html {
 .stars-icons {
   color: var(--primary-color);
   height: 1rem;
+}
+
+/* ////////////////////////section 6//////////////////////////////*/
+.the-offers {
+  margin-top: 4.4rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2.4rem;
+}
+.offering-1 {
+  position: relative;
+}
+.time--1::before {
+  content: "-40% off";
+  background-color: #00b7f1;
+  padding: 0.8rem 1.2rem;
+  border-bottom-left-radius: 7px;
+  color: white;
+  font-size: 1.2rem;
+
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.offering-2 {
+  position: relative;
+}
+.time--2::before {
+  content: "-50% off";
+  background-color: #00b7f1;
+  padding: 0.8rem 1.2rem;
+  border-bottom-left-radius: 7px;
+  color: white;
+  font-size: 1.2rem;
+
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.offer-1,
+.offer-2 {
+  background-color: #00b7f1;
+
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.offer-1 {
+  background-image: url("landing img & icon/offer 1.png");
+  background-size: cover;
+}
+.offer-2 {
+  background-image: url("landing img & icon/offer 2.png");
+  background-size: cover;
+}
+.divider-1 {
+  padding: 3.2rem 2.4rem;
+}
+.offer-text-1 {
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: 1.4;
+  margin-bottom: 2.4rem;
+}
+.offer-text-2 {
+  font-size: 1.2rem;
+  line-height: 1.8;
+  color: var(--faded-text);
+}
+
+.btn--var {
+  font-size: 1.4rem;
+  white-space: nowrap;
+  padding: 0.7rem 1rem;
+}
+
+.time {
+  margin-top: 3.2rem;
+  display: flex;
+  justify-content: space-between;
+}
+.time-branches {
+  color: white;
+
+  background-color: var(--primary-color);
+  padding: 1.2rem;
+  width: 5rem;
+  border-radius: 50%;
+}
+.time-1 {
+  font-size: 1.4rem;
+  margin-bottom: 0.5rem;
+  text-align: center;
+}
+.time-2 {
+  font-size: 1rem;
+  text-align: center;
 }
