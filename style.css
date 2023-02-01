@@ -1,4 +1,4 @@
-/*
+/* /*
 spacing
 2/4/8/12/16/24/32/48/64/80/96/128
 
@@ -82,10 +82,13 @@ html {
   align-items: center;
   gap: 1rem;
 }
+.first-search {
+  width: 48rem;
+}
 .header-form {
   display: flex;
   border: 0.2rem solid var(--primary-color);
-  border-radius: 5px;
+  /* border-radius: 5px; */
 }
 
 .header-form input {
@@ -310,7 +313,7 @@ html {
 }
 .trendwords {
   white-space: nowrap;
-  font-size: 2.4rem;
+  font-size: 2rem;
   color: var(--faded-text);
 }
 .trending-text-1 {
@@ -484,4 +487,72 @@ html {
 .time-2 {
   font-size: 1rem;
   text-align: center;
+}
+
+/* ////////////////////////section 6//////////////////////////////*/
+/* BORROWS NAMES FROM SECTION 5 */
+/* page changer part */
+.page-changer {
+  display: flex;
+  justify-content: end;
+  gap: 20rem;
+}
+
+.page-input {
+  width: 5rem;
+}
+.btn-var2 {
+  font-size: 1.4rem;
+  max-width: 16rem;
+  border-radius: 0;
+}
+.pc-seperator {
+  font-size: 1.6rem;
+  display: flex;
+  gap: 2.4rem;
+}
+.left-right-btns {
+  background-color: var(--primary-color);
+  border: none;
+  height: 2.4rem;
+  width: 5rem;
+}
+.left-right-icons {
+  color: white;
+  /* padding: 0.5rem 0.8rem; */
+  height: 24px;
+  width: 24px;
+}
+
+/* ////////////////////////section 7//////////////////////////////*/
+.cust {
+  margin-bottom: 8.4rem;
+}
+.customer-quote {
+  max-width: 82rem;
+
+  padding: 7.2rem 9.8rem 4.8rem 9.8rem;
+  margin: 0 auto;
+  position: relative;
+
+  text-align: center;
+  background-color: #00b7f1;
+}
+.customer-text {
+  margin-bottom: 2.4rem;
+  font-size: 1.6rem;
+  line-height: 1.6;
+}
+.customer-name {
+  font-size: 1.8rem;
+  margin-bottom: 1.2rem;
+}
+.customer-type {
+  font-size: 1.6rem;
+}
+.customer-img {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
