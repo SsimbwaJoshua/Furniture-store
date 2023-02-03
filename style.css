@@ -525,6 +525,18 @@ html {
 }
 
 /* ////////////////////////section 7//////////////////////////////*/
+.the-slider {
+  /* margin: 0 auto; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3.6rem;
+}
+.slider-icons {
+  height: 30px;
+  width: 30px;
+  color: red;
+}
 .cust {
   margin-bottom: 8.4rem;
 }
@@ -532,7 +544,7 @@ html {
   max-width: 82rem;
 
   padding: 7.2rem 9.8rem 4.8rem 9.8rem;
-  margin: 0 auto;
+
   position: relative;
 
   text-align: center;
@@ -555,4 +567,98 @@ html {
   top: 0;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+/* ////////////////////////section 7//////////////////////////////*/
+.img-offers {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2.4rem;
+  /* padding: 0 6.2rem 0 6.2rem; */
+  justify-content: center;
+}
+.img-grid-4 {
+  height: 45rem;
+  width: 57rem;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+  justify-content: end;
+  padding: 3.6rem 9.6rem 3.6rem 4.8rem;
+}
+.img-offer-1 {
+  justify-self: end;
+
+  background-image: url("landing img & icon/a1.png");
+}
+.img-offer-2 {
+  justify-self: start;
+  background-image: url("landing img & icon/a2.png");
+}
+.img-offer-3 {
+  justify-self: end;
+  background-image: url("landing img & icon/a3.png");
+}
+.img-offer-4 {
+  justify-self: start;
+  background-image: url("landing img & icon/a4.png");
+}
+.img-offers-text-1 {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+.white-background {
+  padding: 0.2rem 0.5rem;
+  border-radius: 5px;
+  display: flex;
+  gap: 0.5rem;
+  background-color: white;
+  color: var(--primary-color);
+  align-items: center;
+  /* padding: 1rem; */
+}
+.white-bkgd-icon {
+  transform: rotate(-0.25turn);
+  height: 14px;
+  width: 14px;
+}
+.white-bkgd-text {
+  font-size: 1.4rem;
+}
+.white-bkgd-text-2 {
+  font-size: 1.4rem;
+  color: white;
+}
+
+.img-offers-text-2 {
+  /* margin: 2.4rem 0 2.4rem 0; */
+  font-size: 3.2rem;
+  line-height: 1.2;
+  color: white;
+}
+.img-offers-text-3 {
+  text-decoration: none;
+  font-size: 1.4rem;
+  color: white;
+}
+
+/* ////////////////////////section 8//////////////////////////////*/
+.section-8 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 3.6rem;
+}
+.end-text {
+  font-size: 1.4rem;
+  text-decoration: none;
+}
+.end-grid {
+  display: flex;
+  flex-direction: column;
+}
+.end-heading {
+  font-size: 2rem;
+  font-weight: 600;
 }
