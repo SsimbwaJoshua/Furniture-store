@@ -46,6 +46,11 @@ html {
   color: var(--faded-text);
 }
 
+a:active,
+a:hover {
+  text-decoration: underline;
+}
+
 /* header and landing page */
 /* header and landing page */
 /* header and landing page */
@@ -408,6 +413,11 @@ html {
 .stars-icons {
   color: var(--primary-color);
   height: 1rem;
+}
+.changing-dots {
+  display: flex;
+  gap: 2.4rem;
+  justify-content: center;
 }
 
 /* ////////////////////////section 6//////////////////////////////*/
