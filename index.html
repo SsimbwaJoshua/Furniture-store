@@ -5,7 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="Queries.css" />
 
     <title>Furniking</title>
   </head>
@@ -55,9 +62,9 @@
           </ul>
         </div>
       </section>
-      <section class="section">
-        <div class="center section-2">
-          <aside>
+      <section class="section section-2">
+        <div class="center section--2">
+          <aside class="the-aside">
             <div class="aside-heading">
               <ion-icon class="icon" name="menu-outline"></ion-icon>
               <h3>ALL COLLECTIONS</h3>
@@ -99,13 +106,59 @@
             </div>
           </aside>
           <div class="right-hand-side">
-            <nav class="nav">
-              <a href="#" class="main-links">HOME </a>
-              <a href="#" class="main-links">SHOP </a>
-              <a href="#" class="main-links">BLOG </a>
-              <a href="#" class="main-links">ABOUT </a>
-              <a href="#" class="main-links">CONTACT US </a>
-            </nav>
+            <div class="nav-links-btns">
+              <div>
+                <button class="mobile-nav-btn">
+                  <ion-icon
+                    class="mobile-nav-icons mobile-open"
+                    name="menu-outline"
+                  ></ion-icon>
+                  <ion-icon
+                    class="mobile-nav-icons mobile-close"
+                    name="close-outline"
+                  ></ion-icon>
+                </button>
+              </div>
+              <nav class="nav">
+                <a href="#" class="main-links">HOME </a>
+                <a href="#" class="main-links">SHOP </a>
+                <a href="#" class="main-links">BLOG </a>
+                <a href="#" class="main-links">ABOUT </a>
+                <a href="#" class="main-links">CONTACT US </a>
+              </nav>
+              <nav class="nav-icon-replacement hidden">
+                <a href="#" class="nav-icon-replacement-links"
+                  ><ion-icon
+                    class="replacent-icon"
+                    name="home-outline"
+                  ></ion-icon
+                ></a>
+                <a href="#" class="nav-icon-replacement-links"
+                  ><ion-icon
+                    class="replacent-icon"
+                    name="pricetag-outline"
+                  ></ion-icon>
+                </a>
+                <a href="#" class="nav-icon-replacement-links"
+                  ><ion-icon
+                    class="replacent-icon"
+                    name="tablet-portrait-outline"
+                  ></ion-icon>
+                </a>
+                <a href="#" class="nav-icon-replacement-links"
+                  ><ion-icon
+                    class="replacent-icon"
+                    name="help-outline"
+                  ></ion-icon>
+                </a>
+                <a href="#" class="nav-icon-replacement-links"
+                  ><ion-icon
+                    class="replacent-icon"
+                    name="call-outline"
+                  ></ion-icon>
+                </a>
+              </nav>
+            </div>
 
             <div class="seperator-in-header">
               <div class="first-images">
@@ -114,7 +167,11 @@
                 <p class="light-text second-p">Get 50% off of all properties</p>
                 <a class="link--btn" href="#">SHOP NOW</a>
               </div>
-              <img src="landing img & icon/landing Furniture 1.png" alt="" />
+              <img
+                class="big-chair"
+                src="landing img & icon/landing Furniture 1.png"
+                alt=""
+              />
               <div class="smaller-images">
                 <div class="smaller-image-content">
                   <img
