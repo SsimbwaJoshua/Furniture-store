@@ -3,9 +3,7 @@
   .center {
     max-width: 90%;
   }
-  .img-grid-1 {
-    grid-template-columns: repeat(2, 1fr);
-  }
+
   /* .offer-1,
   .offer-2 {
     height: 100%;
@@ -39,6 +37,9 @@
 /* at 950px vertical tablets */
 /* ///////////////////////////////////////////////////////////////////////////// */
 @media (max-width: 61em) {
+  .img-grid-1 {
+    grid-template-columns: repeat(2, 1fr);
+  }
   .offer-1,
   .offer-2 {
     grid-template-columns: 0.65fr 0.35fr;

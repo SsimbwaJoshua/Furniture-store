@@ -774,3 +774,16 @@ a:hover {
   height: 24px;
   width: 24px;
 }
+
+/* ///////////////////////////////////////////// */
+/* after light house tests */
+/* ///////////////////////////////////////////// */
+
+.big-chair {
+  width: 37rem;
+  height: 37rem;
+}
+.img-grid-pics {
+  width: 27rem;
+  height: 29rem;
+}
