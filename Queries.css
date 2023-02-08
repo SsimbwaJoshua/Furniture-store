@@ -32,15 +32,13 @@
   }
   .big-chair {
     width: 100%;
+    align-self: center;
   }
 }
 /* ///////////////////////////////////////////////////////////////////////////// */
 /* at 950px vertical tablets */
 /* ///////////////////////////////////////////////////////////////////////////// */
 @media (max-width: 61em) {
-  .big-chair {
-    align-self: center;
-  }
   .offer-1,
   .offer-2 {
     grid-template-columns: 0.65fr 0.35fr;
@@ -72,7 +70,7 @@
     top: 0;
     left: 0;
 
-    /* opacity: 0; */
+    opacity: 0;
     pointer-events: none;
     visibility: hidden;
 
@@ -86,6 +84,11 @@
     opacity: 1;
     pointer-events: auto;
     visibility: visible;
+  }
+
+  /* coloring the button */
+  .color-the-button {
+    color: var(--primary-color);
   }
 
   .section-3 {
